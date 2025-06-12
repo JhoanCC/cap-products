@@ -104,11 +104,11 @@ context sales {
     entity Months {
         key ID                : String(2);
             Description       : localized String;
-            ShortDescriptions : localized String(3);
+            ShortDescription : localized String(3);
     };
 
     entity SalesData : cuid, managed {
-        DeliveredDate : DateTime;
+        DeliveryDate : DateTime;
         Revenue       : Decimal(16, 2);
         Product       : Association to materials.Products;
         Currency      : Association to materials.Currencies;

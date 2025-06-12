@@ -1,3 +1,4 @@
-ID;Description
-CM;Centímetros
-IN;Pulgadas
+ID,Description
+MM,Millimeter
+CM,Centimeter
+M,Meter

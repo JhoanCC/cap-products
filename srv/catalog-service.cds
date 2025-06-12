@@ -75,7 +75,7 @@ define service CatalogService {
     entity SalesData          as
         select from logali.sales.SalesData {
             ID,
-            DeliveredDate,
+            DeliveryDate,
             Revenue,
             Currency.ID               as CurrencyKey,
             DeliveryMonth.ID          as DeliveryMonthId,

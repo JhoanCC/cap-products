@@ -1,3 +1,4 @@
-ID;Name
-A;Electrónica
-B;Accesorios
+ID,Name
+F,Food
+B,Beverages
+E,Electronics
